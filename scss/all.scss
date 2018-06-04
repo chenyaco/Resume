@@ -140,6 +140,7 @@ a {
 	.col-three-one-center {
 		margin-left: 0;
 	}
+
 }
 
 //** Navbar **//
@@ -560,6 +561,15 @@ a {
 			font-size: 26px;
 			font-weight: 600;
 		}
+	}
+}
+
+@media (max-width: $mobile-size) {
+	.img-box{
+		width: 90%;
+		height: 200px;
+		overflow: hidden;
+		margin: 3% 5%;
 	}
 }
 
