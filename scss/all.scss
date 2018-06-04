@@ -610,3 +610,14 @@ a {
  		transform: translate(0, 0px);
  	}
  }
+
+ .github a{
+	 text-decoration: none;
+	 color: #000;
+	 &:hover{
+		 color: #525252;
+		 -webkit-transition: all 1s;
+		 -o-transition: all 1s;
+		 transition: all 1s;
+	 }
+ }
