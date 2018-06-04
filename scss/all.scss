@@ -565,6 +565,15 @@ a {
 }
 
 @media (max-width: $mobile-size) {
+	.header-wrap{
+		height: 700px;
+		.content{
+			height: 430px;
+			h1{
+				font-size: 48px;
+			}
+		}
+	}
 	.img-box{
 		width: 90%;
 		height: 200px;

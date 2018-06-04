@@ -493,6 +493,12 @@ a {
       font-weight: 600; }
 
 @media (max-width: 779px) {
+  .header-wrap {
+    height: 700px; }
+    .header-wrap .content {
+      height: 430px; }
+      .header-wrap .content h1 {
+        font-size: 48px; }
   .img-box {
     width: 90%;
     height: 200px;
